@@ -1,0 +1,231 @@
+    .about-section {
+      background-color: #eee;
+      display: flex;
+      padding-bottom: 202px;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .header {
+      background-color: #fff;
+      display: flex;
+      width: 100%;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 18px 36px 85px;
+    }
+    
+    .logo {
+      aspect-ratio: 2.29;
+      object-fit: contain;
+      object-position: center;
+      width: 163px;
+      max-width: 100%;
+    }
+    
+    .nav-container {
+      padding-top: 38px;
+      margin-left: 706px;
+      width: 100%;
+    }
+    
+    .nav-menu {
+      display: flex;
+      margin-top: 10px;
+      align-items: flex-start;
+      gap: 40px 69px;
+      color: #000;
+      white-space: nowrap;
+      font: 600 18px Poppins, sans-serif;
+    }
+    
+    .nav-item {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .nav-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    .nav-underline {
+      margin-top: 11px;
+      height: 1px;
+      border: 1px solid #000;
+    }
+    
+    .social-icons {
+      display: flex;
+      gap: 40px 100px;
+    }
+    
+    .social-icon {
+      aspect-ratio: 1;
+      object-fit: contain;
+      object-position: center;
+      width: 33px;
+    }
+    
+    .blue-banner {
+      background-color: #1e60d5;
+      z-index: 10;
+      margin-top: -65px;
+      width: 100%;
+      padding: 0 80px;
+    }
+    
+    .banner-content {
+      gap: 20px;
+      display: flex;
+    }
+    
+    .banner-title {
+      color: #fff;
+      align-self: stretch;
+      margin: auto 0;
+      font: 700 60px Poppins, sans-serif;
+    }
+    
+    .banner-image-container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      min-height: 278px;
+      margin-right: -98px;
+      flex-grow: 1;
+      align-items: flex-start;
+    }
+    
+    .banner-image {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    .banner-overlay {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      width: 112px;
+      height: 280px;
+    }
+    
+    .main-content {
+      align-self: center;
+      width: 100%;
+      max-width: 1129px;
+      margin: 79px 0 0 43px;
+    }
+    
+    .content-wrapper {
+      gap: 20px;
+      display: flex;
+    }
+    
+    .text-content {
+      display: flex;
+      margin-top: 4px;
+      flex-direction: column;
+      font-family: Poppins, sans-serif;
+      color: #000;
+    }
+    
+    .content-title {
+      font-size: 40px;
+      font-weight: 700;
+      align-self: flex-start;
+    }
+    
+    .content-description {
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 61px;
+    }
+    
+    .content-image {
+      aspect-ratio: 1.14;
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      flex-grow: 1;
+    }
+    
+    @media (max-width: 991px) {
+      .about-section {
+        padding-bottom: 100px;
+      }
+    
+      .header {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    
+      .nav-container {
+        max-width: 100%;
+      }
+    
+      .nav-menu {
+        white-space: initial;
+      }
+    
+      .nav-item {
+        white-space: initial;
+      }
+    
+      .nav-link {
+        margin-right: 5px;
+      }
+    
+      .blue-banner {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    
+      .banner-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+      }
+    
+      .banner-title {
+        margin-top: 40px;
+        font-size: 40px;
+      }
+    
+      .banner-image-container {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    
+      .main-content {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    
+      .content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+      }
+    
+      .text-content {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    
+      .content-description {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    
+      .content-image {
+        margin-top: 40px;
+      }
+    }
