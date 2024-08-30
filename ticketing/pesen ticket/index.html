@@ -81,10 +81,9 @@
                     <div class="ticket-details">
                     <p class="ticket-price">IDR 297.500/pax</p>
                     <div class="quantity-selector">
-                        <button class="quantity-button" aria-label="Decrease quantity">-</button>
-                        <button class="quantity-value" aria-label="Current quantity">4</button>
-                        <!-- <span class="quantity-value" aria-label="Current quantity">4</span> -->
-                        <button class="quantity-button" aria-label="Increase quantity">+</button>
+                        <button class="quantity-button" aria-label="Decrease quantity" onclick="decreasequantity()">-</button>
+                        <span class="quantity-value" id="quantity" aria-label="Current quantity">0</span>
+                        <button class="quantity-button" aria-label="Increase quantity" onclick="increasequantity()">+</button>
                     </div>
                 </div>
                 </div>
@@ -102,5 +101,39 @@
         </div>
     </div>
     </section>
+    <script>
+        const quantityValue = document.querySelector('.quantity-value');
+        const decreaseButton = document.querySelector('.quantity-button[aria-label="Decrease quantity"]');
+        const increaseButton = document.querySelector('.quantity-button[aria-label="Increase quantity"]');
+        const totalAmount = document.querySelector('.total-amount');
+
+        const unitPrice = 297500;
+
+        function decreaseQuantity() {
+        let currentQuantity = parseInt(quantityValue.textContent);
+        if (currentQuantity > 0) {
+            currentQuantity--;
+            quantityValue.textContent = currentQuantity.toString();
+            updateTotalAmount(currentQuantity);
+        }
+        }
+
+        function increaseQuantity() {
+        let currentQuantity = parseInt(quantityValue.textContent);
+        currentQuantity++;
+        quantityValue.textContent = currentQuantity.toString();
+        updateTotalAmount(currentQuantity);
+        }
+
+        function updateTotalAmount(quantity) {
+        const total = quantity * unitPrice;
+        totalAmount.textContent = `IDR ${total.toLocaleString()}`;
+        }
+
+        decreaseButton.addEventListener('click', decreaseQuantity);
+        increaseButton.addEventListener('click', increaseQuantity);
+
+        updateTotalAmount(parseInt(quantityValue.textContent));
+    </script>
 </body>
 </html>
