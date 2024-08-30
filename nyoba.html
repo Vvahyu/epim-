@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Menghilangkan border kotak dan menambahkan garis bawah */
+        input {
+            border: none;
+            border-bottom: 2px solid #ccc;
+            padding: 5px 0;
+            font-size: 16px;
+            outline: none; /* Menghilangkan outline saat input dipilih */
+            width: 100%; /* Membuat input sesuai dengan kontainer */
+        }
+
+        /* Mengubah warna garis bawah saat input aktif */
+        input:focus {
+            border-bottom-color: red; /* Warna garis bawah berubah menjadi merah saat aktif */
+        }
+
+        /* Mengubah warna teks dan label saat ada input */
+        input:valid {
+            color: red;
+        }
+
+        .label-red {
+            color: red;
+        }
+    </style>
+    <title>Input with Underline and Label Change</title>
+</head>
+<body>
+
+<div class="container-7">
+    <div class="first-name">First Name</div>
+    <input type="text" class="siti-nur" value="Siti Nur" oninput="changeLabelColor(this)" />
+</div>
+<div class="container-19">
+    <div class="contact-2"></div>
+    <div class="container-16">
+        <div class="last-name">Last Name</div>
+        <div class="container-13">
+            <input type="text" class="azizah" value="Azizah" oninput="changeLabelColor(this)" />
+            <div class="line-7"></div>
+        </div>
+    </div>
+</div>
+<div class="container-5">
+    <div class="line-5"></div>
+    <div class="line-6"></div>
+</div>
+
+<div class="container-5">
+    <div class="container-25">
+        <div class="contact-3"></div>
+        <div class="container-7">
+            <div class="phone-number">Phone Number</div>
+            <input type="text" class="siti-nur" value="0812345678" oninput="changeLabelColor(this)" />
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="contact-4"></div>
+        <div class="container-16">
+            <div class="email">Email</div>
+            <input type="email" class="siticakep-45-gmail-com" value="siticakep45@gmail.com" oninput="changeLabelColor(this)" />
+        </div>
+    </div>
+</div>
+
+<script>
+    function changeLabelColor(input) {
+        // Cek apakah input memiliki nilai
+        if (input.value.trim() !== "") {
+            // Mengubah warna label terkait menjadi merah
+            input.previousElementSibling.classList.add("label-red");
+        } else {
+            // Mengembalikan warna label ke semula jika input kosong
+            input.previousElementSibling.classList.remove("label-red");
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -35,14 +35,14 @@ a{
 }
 .nav{
     padding-top: 38px;
-    margin-left: 706px;
+    margin-left: 600px;
     width: 100%;
 }
 
 .logo {
     width: 156px;
     height: 66px;
-    padding-top: 38px;
+    padding-top: 100px;
 }
 header{
     width: 100%;
@@ -245,7 +245,7 @@ header a{
     width: 232px;
     height: 409px;
     position: absolute;
-    bottom: 50px;
+    bottom: 188px;
     left: 50%;
     border-radius: 30px;
     animation: showImage .5s linear 1 forwards;
@@ -283,17 +283,6 @@ header a{
     }
 }
 
-/* running time */
-
-.carousel .time{
-    position: absolute;
-    z-index: 1000;
-    width: 0%;
-    height: 3px;
-    background-color: #f1683a;
-    left: 0;
-    top: 0;
-}
 
 .carousel.next .time,
 .carousel.prev .time{
@@ -319,10 +308,10 @@ header a{
 }
 @keyframes outFrame{
     to{
-        width: 232px;
+        width: 239px;
         height: 409px;
         bottom: 188px;
-        left: 55%;
+        left: 50%;
         border-radius: 20px;
     }
 }
@@ -337,6 +326,7 @@ header a{
     pointer-events: none;
 }
 .carousel.prev .list .item:nth-child(2) .content .author,
+
 .carousel.prev .list .item:nth-child(2) .content .title,
 .carousel.prev .list .item:nth-child(2) .content .topic,
 .carousel.prev .list .item:nth-child(2) .content .des,
@@ -390,7 +380,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .group-2 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0.9px 20px 0;
@@ -407,7 +397,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .container-6 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0 20px 0.6px;
@@ -423,7 +413,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .container-3 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0.1px 20px 0;
@@ -432,7 +422,7 @@ header a{
     z-index: 1000px;
   }
   .other-destination .rectangle-40 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     width: 480px;
     height: 235px;
@@ -465,7 +455,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .group-3 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 10.4px 20px 0;
@@ -482,7 +472,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .container-4 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0 20px 0.1px;
@@ -498,7 +488,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .container-2 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 1px 20px 0;
@@ -506,7 +496,7 @@ header a{
     box-sizing: border-box;
   }
   .other-destination .rectangle-43 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     width: 480px;
     height: 235px;
@@ -538,7 +528,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .group-4 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0.7px 20px 0;
@@ -554,7 +544,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .container-5 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0 20px 42.5px;
@@ -570,7 +560,7 @@ header a{
     color: rgba(255, 255, 255, 0.933);
   }
   .other-destination .container-9 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     display: flex;
     padding: 185px 0 20px 0px;
@@ -578,7 +568,7 @@ header a{
     box-sizing: border-box;
   }
   .other-destination .rectangle-47 {
-    background: url('image/img6.jpg') 50% / cover no-repeat;
+    background: url('image/img1.jpg') 50% / cover no-repeat;
     position: relative;
     width: 480px;
     height: 235px;

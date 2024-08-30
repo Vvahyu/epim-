@@ -32,18 +32,7 @@
     font-size: 18px;
     color: #000000;
   }
-  .checkout .screenshot-20240809101410-removebg-preview-2 {
-    background: url('image/screenshot_20240809101410_removebg_preview_2.png') 50% / cover no-repeat  ;
-    margin: 19px 0;
-    width: 40px;
-    height: 45px;
-  }
-  .checkout .log-7 {
-    background: url('image/log_7.png') 50% / cover no-repeat;
-    margin: 19px 0;
-    width: 35px;
-    height: 33px;
-  }
+
   .checkout .container-24 {
     margin-bottom: 77px;
     display: flex;
@@ -53,7 +42,7 @@
     box-sizing: border-box;
   }
   .checkout .home-1 {
-    background: url('image/home_1.png') 50% / cover no-repeat;
+    background: url('image/backtohome.svg') 50% / cover no-repeat;
     margin: 0 27px 4px 27px;
     align-self: flex-start;
     width: 13px;
@@ -91,7 +80,7 @@
     color: #636363;
   }
   .checkout .contact-1 {
-    background: url('image/contact_2.png') 50% / cover no-repeat;
+    background: url('image/contact.svg') 50% / cover no-repeat;
     margin: 5px 15px 21px 0;
     width: 25px;
     height: 25px;
@@ -103,6 +92,8 @@
     font-weight: 600;
     font-size: 12px;
     color: #C9C9CB;
+    margin-right: 100px;
+    padding-right: 50px;
   }
   .checkout .siti-nur {
     margin-right: 12.7px;
@@ -113,6 +104,7 @@
     color: #220505;
   }
   .checkout .container-7 {
+    margin-right: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,21 +117,22 @@
     box-sizing: border-box;
   }
   .checkout .contact-2 {
-    background: url('image/contact_2.png') 50% / cover no-repeat;
-    margin: 5px 21px 23px 0;
+    background: url('image/contact.svg') 50% / cover no-repeat;
+    margin: 10px 20px 23px 10px;
     width: 25px;
-    height: 25px;
+    height: 24px;
   }
   .checkout .last-name {
+    margin-right: 110px;
     display: inline-block;
     overflow-wrap: break-word;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
-    color: #4542FF;
+    color: #C9C9CB;
   }
   .checkout .azizah {
-    margin-right: 5.5px;
+    margin-right: 12.7px;
     overflow-wrap: break-word;
     font-family: 'Poppins';
     font-weight: 600;
@@ -159,23 +152,25 @@
     box-sizing: border-box;
   }
   .checkout .container-16 {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
   }
   .checkout .container-19 {
+    margin-left: 29px;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
   }
   .checkout .container-8 {
-    margin: 0 50px 2px 50px;
+    margin-top: 10px;
+    margin-left: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-self: flex-start;
-    width: 437.6px;
+    width: 595px;
     box-sizing: border-box;
   }
   .checkout .line-5 {
@@ -200,7 +195,7 @@
     box-sizing: border-box;
   }
   .checkout .contact-3 {
-    background: url('image/contact_3.png') 50% / cover no-repeat;
+    background: url('image/phone-book.svg') 50% / cover no-repeat;
     margin: 6px 16px 12px 0;
     width: 25px;
     height: 25px;
@@ -236,8 +231,8 @@
     box-sizing: border-box;
   }
   .checkout .contact-4 {
-    background: url('../assets/images/contact_4.png') 50% / cover no-repeat;
-    margin: 4px 21px 13px 0;
+    background: url('image/mail.svg') 50% / cover no-repeat;
+    margin: 11px 21px 13px 15px;
     width: 25px;
     height: 25px;
   }
@@ -265,7 +260,7 @@
     box-sizing: border-box;
   }
   .checkout .container-3 {
-    margin-right: 27px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
@@ -343,7 +338,7 @@
   }
   .checkout .container-15 {
     border-radius: 16px;
-    background: #4648F3;
+    border: 1px solid #000000;
     position: relative;
     display: flex;
     padding-left: 2rem;
@@ -353,8 +348,8 @@
     box-sizing: border-box;
   }
   .checkout .apple-pay-1 {
-    background: url('') 50% / cover no-repeat;
-    width: 74px;
+    background: url('image/applepay.svg') 50% / cover no-repeat;
+    width: 80px;
     height: 34px;
   }
   .checkout .container-12 {
@@ -396,14 +391,7 @@
     width: 16.7px;
     height: 15.6px;
   }
-  .checkout .container-20 {
-    margin-bottom: 92.5px;
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-between;
-    width: 285.7px;
-    box-sizing: border-box;
-  }
+
   .checkout .container-1 {
     margin: 0 13.5px 2.5px 0;
     display: inline-block;
@@ -423,14 +411,7 @@
     font-size: 13px;
     color: #FFFFFF;
   }
-  .checkout .container-6 {
-    margin: 0 6.6px 0 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 277.2px;
-    box-sizing: border-box;
-  }
+
   .checkout .group-6 {
     background: #4542FF;
     position: relative;
@@ -523,7 +504,7 @@
     overflow-wrap: break-word;
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 25px;
+    font-size: 24px;
     color: #000000;
   }
   .checkout .container-23 {
@@ -610,6 +591,7 @@
     box-sizing: border-box;
   }
   .checkout .back-to-home {
+
     position: absolute;
     left: 120px;
     top: 192px;
@@ -627,4 +609,41 @@
     box-sizing: border-box; 
   }
 
-  
+  .backk {
+
+    width: 10px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+  }
+
+  input:focus {
+    border-bottom-color: #438EFF;
+  }
+
+  input:valid {
+    color: #438EFF;
+  }
+
+  .inputsiti {
+    color: #438EFF;
+  }
+
+
+  .container-11 .container-10,
+  .container-11 .container-15,
+  .container-11 .container-12 {
+     transition: background-color 0.3s ease;
+  }       
+
+  .container-11 .container-10:hover,
+        .container-11 .container-15:hover,
+        .container-11 .container-12:hover {
+            background-color: red; 
+        }

@@ -15,8 +15,6 @@
           <div class="home">HOME</div>
           <div class="about">ABOUT</div>
           <div class="contact">CONTACT</div>
-          <div class="screenshot-20240809101410-removebg-preview-2"></div>
-          <div class="log-7"></div>
         </div>
         <div class="home-1"></div>
         <div class="container-9">
@@ -25,25 +23,27 @@
             <div class="acheckout-is-acounter-where-you-pay-for-thing-you-are-buying">
               A checkout is a counter where you pay for thing you are buying
             </div>
-            <div class="contact-information">1. Contact information</div>
+           <div class="contact-information">1. Contact information</div>
             <div class="container-8">
               <div class="container-25">
-                <div class="contact-1"></div>
+                <div class="contact-1"></div> 
                 <div class="container-7">
                   <div class="first-name">First Name</div>
-                  <span class="siti-nur"> Siti Nur </span>
+                  <input type="text" class="siti-nur" oninput="changeLabelColor(this)" />
                 </div>
-              </div>
-              <div class="container-19">
-                <div class="contact-2"></div>
-                <div class="container-16">
-                  <div class="last-name">Last Name</div>
-                  <div class="container-13">
-                    <span class="azizah"> Azizah </span>
-                    <div class="line-7"></div>
+
+                <div class="container-19">
+                  <div class="contact-2"></div>
+                  <div class="container-16">
+                    <div class="last-name">Last Name</div>
+                    <div class="container-13">
+                      <input type="text" class="azizah" oninput="changeLabelColor(this)" />
+                      <div class="line-7"></div>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
             <div class="container-5">
               <div class="line-5"></div>
@@ -55,16 +55,14 @@
                 <div class="contact-3"></div>
                 <div class="container-7">
                   <div class="phone-number">Phone Number</div>
-                  <span class="siti-nur"> 0812345678 </span>
+                  <input type="text" class="siti-nur" oninput="changeLabelColor(this)" />
                 </div>
               </div>
               <div class="container-3">
                 <div class="contact-4"></div>
                 <div class="container-16">
                   <div class="email">Email</div>
-                  <span class="siticakep-45-gmail-com">
-                    siticakep45@gmail.com
-                  </span>
+                  <input type="text" class="siticakep-45-gmail-com" oninput="changeLabelColor(this)" />
                 </div>
               </div>
             </div>
@@ -129,8 +127,18 @@
         </div>
       </div>
       <a href="../dashboard/index.html">
-        <span class="back-to-home"><- back to home </span>
+        <span class="back-to-home">back to home </span>
       </a>
     </div>
+
+    <script>
+      function changeLabelColor(input) {
+        if (input.value.trim() !=="") {
+          input.previousElementSibling.classList.add("inputsiti");
+        } else {
+          input.previousElementSibling.classList.remove("inputsiti");
+        }
+      }
+    </script>
   </body>
 </html>
